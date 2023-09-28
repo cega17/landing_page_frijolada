@@ -248,6 +248,62 @@ a:hover {
     max-width: 1200px;
     margin: 0 auto;
   }
+  .contact-btn2{
+    display: grid;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    
+    width: 50%;
+  }
+  .contact-btn2:hover{
+    background: #f09362;
+    
+  }
+  /* Estilos para los enlaces de Facebook e Instagram */
+.social-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #007bff; /* Color de fondo principal */
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.social-links img {
+    width: 30px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+    height: 30px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+}
+
+/* Estilos para el botón de confirmación de asistencia */
+.contact-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff5722; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #e64a19; /* Cambia el color de fondo al pasar el mouse */
+}
   #legal-creds ul {
     display: flex;
     flex-flow: row;
