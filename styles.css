@@ -320,3 +320,39 @@ a:hover {
       flex-flow: column;
     }
   }
+/* Estilos para la sección de servicios del desarrollador */
+.servicios-desarrollador {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.servicios-desarrollador h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.servicios-desarrollador p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el botón de contacto del desarrollador */
+.contact-btn3 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact-btn3:hover {
+    background-color: #e55000;
+}
